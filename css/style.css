@@ -1,6 +1,11 @@
 * {
   margin: 0%;
   padding: 0%;
+  transition: 0.2s linear;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -12,7 +17,8 @@ body {
 }
 
 .nav-item.active {
-  background-color: burlywood;
+  background-color: #e1e1ff;
+  border-radius: 23px;
 }
 
 .carousel-img {
@@ -27,7 +33,7 @@ body {
   font-family: 'Cookie', cursive;
   background-color: rgba(0, 0, 0, 0.5);
   text-shadow: 1px 1px 2px #000, 0 0 25px #383a3a, 0 0 5px #fff;
-  font-size: 80px;
+  font-size: 40px;
 }
 
 .carousel-caption {
@@ -43,10 +49,35 @@ body {
   text-align: center;
 }
 
-.shadow-img {
+@media only screen and (min-width: 768px) {
+  .carousel-caption {
+    font-size: 85px;
+  }
+}
+
+.shadow {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
+
+.card-image{
+  min-height: 200px;
+  max-height: 200px;
+  border-radius: 0% 0% 10% 10%;
+  overflow: hidden;
+}
+
+.rounded-card{
+  border-radius: 15px;
+  overflow: hidden;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.card:hover{
+  box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
 
 /* Container holding the image and the text */
 .contain {
