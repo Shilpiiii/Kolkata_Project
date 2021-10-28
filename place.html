@@ -1,985 +1,867 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
-      rel="stylesheet"
-    />
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>All about Kolkata</title>
-    <link rel="icon" href="./images/logo.jpg" type="image/png" />
+<head>
+  <meta charset="UTF-8" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
 
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css"
-      integrity="sha512-apX8rFN/KxJW8rniQbkvzrshQ3KvyEH+4szT3Sno5svdr6E/CP0QE862yEeLBMUnCqLko8QaugGkzvWS7uNfFQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script&display=swap"
-      rel="stylesheet"
-    />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All about Kolkata</title>
+  <link rel="icon" href="./images/logo.jpg" type="image/png" />
 
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css"
+    integrity="sha512-apX8rFN/KxJW8rniQbkvzrshQ3KvyEH+4szT3Sno5svdr6E/CP0QE862yEeLBMUnCqLko8QaugGkzvWS7uNfFQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script&display=swap" rel="stylesheet" />
 
-  <body style="background-image: url('pic/geometric-leaves.png')">
-    <div class="container pt-5">
-      <div class="row">
-        <a href="index.html" style="width: 20%" class="mb-2 pb-2"
-          ><i
-            class="fas fa-arrow-circle-left fa-3x"
-            style="color: rgb(8, 1, 15)"
-          ></i
-        ></a>
-      </div>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-      <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-12 text-center">
-          <p
-            style="
+<body style="background-image: url('pic/geometric-leaves.png')">
+
+  <!-- Scroller -->
+  <div type="button" class="btn btn-floating" id="btn-back-to-top">
+    <i class="fas fa-2x fa-caret-square-up scroller w-100"></i>
+  </div>
+
+
+  <div class="container pt-5">
+    <div class="row">
+      <a href="index.html" style="width: 20%" class="mb-2 pb-2"><i class="fas fa-arrow-circle-left fa-3x"
+          style="color: rgb(8, 1, 15)"></i></a>
+    </div>
+
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-12 text-center">
+        <p style="
               font-family: 'Cookie', cursive;
               font-family: 'Dancing Script', cursive;
               font-size: 50px;
-            "
-          >
-            Places You must visit in Kolkata
-          </p>
-        </div>
+            ">
+          Places You must visit in Kolkata
+        </p>
       </div>
-      <h3>1. Victoria Memorial Hall</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <img src="pic/place1.jpg" style="height: 300px; width: 500px" />
-        </div>
-        <div class="col-md-6">
-          <p>
-            The Victoria Memorial is located in the heart of Kolkata, in West
-            Bengal. This white marbled opulent structure was built in memory of
-            Queen Victoria to celebrate her 25 years of rule over India and is
-            almost a replica of the Victoria Memorial in London. Victoria
-            Memorial is an iconic structure that is synonymous with the city of
-            joy!
-          </p>
+    </div>
+    <h3>1. Victoria Memorial Hall</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="pic/place1.jpg" class="w-100" />
+      </div>
+      <div class="col-md-6">
+        <p>
+          The Victoria Memorial is located in the heart of Kolkata, in West
+          Bengal. This white marbled opulent structure was built in memory of
+          Queen Victoria to celebrate her 25 years of rule over India and is
+          almost a replica of the Victoria Memorial in London. Victoria
+          Memorial is an iconic structure that is synonymous with the city of
+          joy!
+        </p>
 
-          <p>
-            The memorial is surrounded by a lush green and well-maintained
-            garden, which spreads over 64 acres and has numerous statues and
-            sculptures in it. A sixteen-foot tall bronze statue of victory,
-            mounted on ball bearings at the top of the memorial, serves to
-            heighten the overall appeal and grandeur of the entire complex.All
-            in all, the place is a must visit for people to wish to relive the
-            essence of the Victorian era in the modern day world.
-          </p>
-          <p>Want to know some more about <b>Victoria?</b></p>
-          <a
-            class="btn btn-primary"
-            href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"
-            role="button"
-            target="blank"
-            >Click Here</a
-          >
-        </div>
+        <p>
+          The memorial is surrounded by a lush green and well-maintained
+          garden, which spreads over 64 acres and has numerous statues and
+          sculptures in it. A sixteen-foot tall bronze statue of victory,
+          mounted on ball bearings at the top of the memorial, serves to
+          heighten the overall appeal and grandeur of the entire complex.All
+          in all, the place is a must visit for people to wish to relive the
+          essence of the Victorian era in the modern day world.
+        </p>
+        <p>Want to know some more about <b>Victoria?</b></p>
+        <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata" role="button"
+          target="blank">Click Here</a>
       </div>
-      <h3 class="mt-5">2. Princep Ghat</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <p>
-            Prinsep Ghat, located on the banks of River Hooghly, is a majestic
-            structure famous for its Greek/ Gothic inlays. The beauty of Princep
-            Ghat draws architecture and history buffs in large numbers, but even
-            locals visit to absorb the regal vibe of the attraction. With the
-            magnificent Howrah Bridge in the background, watching the sunrise or
-            sunset and taking a long walk in the cool air on the banks of the
-            river are some of the preferred recreational activities here.
-          </p>
+    </div>
+    <h3 class="mt-5">2. Princep Ghat</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <p>
+          Prinsep Ghat, located on the banks of River Hooghly, is a majestic
+          structure famous for its Greek/ Gothic inlays. The beauty of Princep
+          Ghat draws architecture and history buffs in large numbers, but even
+          locals visit to absorb the regal vibe of the attraction. With the
+          magnificent Howrah Bridge in the background, watching the sunrise or
+          sunset and taking a long walk in the cool air on the banks of the
+          river are some of the preferred recreational activities here.
+        </p>
 
-          <p>
-            During the British Rule, it was used by the staff of the British
-            Royals as a jetty for loading and unloading passengers and essential
-            items. The ghat is located between Fort William and the Water Gate
-            and is often visited by tourists exploring these attractions. It is,
-            therefore, a favourite amongst photographers especially for
-            pre-wedding shoots. In between exploring the attraction, if one
-            feels like grabbing a bite, there are several food kiosks to choose
-            from that serve scrumptious local snacks. Prinsep Ghat is sure to be
-            the highlight of one’s trip to Kolkata.
-          </p>
-          <p>Want to know some more about <b>Princep Ghat?</b></p>
-          <a
-            class="btn btn-primary"
-            href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"
-            role="button"
-            target="blank"
-            >Click Here</a
-          >
-        </div>
-        <div class="col-md-6">
-          <img src="pic/place2.jpg" style="height: 300px; width: 500px" />
-        </div>
+        <p>
+          During the British Rule, it was used by the staff of the British
+          Royals as a jetty for loading and unloading passengers and essential
+          items. The ghat is located between Fort William and the Water Gate
+          and is often visited by tourists exploring these attractions. It is,
+          therefore, a favourite amongst photographers especially for
+          pre-wedding shoots. In between exploring the attraction, if one
+          feels like grabbing a bite, there are several food kiosks to choose
+          from that serve scrumptious local snacks. Prinsep Ghat is sure to be
+          the highlight of one’s trip to Kolkata.
+        </p>
+        <p>Want to know some more about <b>Princep Ghat?</b></p>
+        <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata" role="button"
+          target="blank">Click Here</a>
       </div>
-      <h3 class="mt-5">3. Jorasako Thakur Bari</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <img src="pic/place3.jpg" style="height: 300px; width: 500px" />
-        </div>
-        <div class="col-md-6">
-          <p>
-            The Bengali name for the House of the Thakurs, the Jorasanko Thakur
-            Bari is the ancestral home of the Tagore family that is located in
-            Jorasanko, in the north of Kolkata in West Bengal in India. This is
-            an enjoyable and exciting place to visit, especially for lovers of
-            history and Bengali literature. The 700 paintings that are exhibited
-            in this ancestral home especially capture the attention of the
-            visitors. What enthrals them, even more, is the self-composed invite
-            of Rabindranath Tagore's wedding. The museum also houses three
-            different galleries, manuscripts, books and other antique items.
-          </p>
+      <div class="col-md-6">
+        <img src="pic/place2.jpg" class="w-100" />
+      </div>
+    </div>
+    <h3 class="mt-5">3. Jorasako Thakur Bari</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="pic/place3.jpg" class="w-100" />
+      </div>
+      <div class="col-md-6">
+        <p>
+          The Bengali name for the House of the Thakurs, the Jorasanko Thakur
+          Bari is the ancestral home of the Tagore family that is located in
+          Jorasanko, in the north of Kolkata in West Bengal in India. This is
+          an enjoyable and exciting place to visit, especially for lovers of
+          history and Bengali literature. The 700 paintings that are exhibited
+          in this ancestral home especially capture the attention of the
+          visitors. What enthrals them, even more, is the self-composed invite
+          of Rabindranath Tagore's wedding. The museum also houses three
+          different galleries, manuscripts, books and other antique items.
+        </p>
 
-          <p>
-            All know the contributions of Rabindranath Tagore to the world of
-            literature, and it is in this house that this exceptional poet was
-            born and where he spent most of his life and then left for his
-            heavenly abode. This ancestral home was built in the year 1784, and
-            now houses the Rabindra Bharati Museum, which is commonly known as
-            Jorasankho Thakurbari in the local language. The Rabindra Bharti
-            University is also located in proximity to the Jorasanko Thakur
-            Bari, and the university was started with the purpose of imparting
-            quality education to the students.
-          </p>
-          <p>Want to know some more about <b>Jorasako Thakur Bari?</b></p>
-          <a
-            class="btn btn-primary"
-            href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"
-            role="button"
-            target="blank"
-            >Click Here</a
-          >
-        </div>
+        <p>
+          All know the contributions of Rabindranath Tagore to the world of
+          literature, and it is in this house that this exceptional poet was
+          born and where he spent most of his life and then left for his
+          heavenly abode. This ancestral home was built in the year 1784, and
+          now houses the Rabindra Bharati Museum, which is commonly known as
+          Jorasankho Thakurbari in the local language. The Rabindra Bharti
+          University is also located in proximity to the Jorasanko Thakur
+          Bari, and the university was started with the purpose of imparting
+          quality education to the students.
+        </p>
+        <p>Want to know some more about <b>Jorasako Thakur Bari?</b></p>
+        <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata" role="button"
+          target="blank">Click Here</a>
       </div>
-      <h3 class="mt-5">4. Kumortuli</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <p>
-            If you’re looking for the ultimate cultural tour of Kolkata, turn
-            your graze towards the artistic lanes of Kumortuli. The traditional
-            potters’ quarter is where most of the globally admired Durga idols
-            are sculpted with devotion and perfection for the famous Durga Puja.
-            The skilled potters here depend on their ancestral art of clay idol
-            making for their livelihood. Over 150 families and thousands of
-            artisans work hard in the congested studios to bring out some of the
-            most intricate work ever seen in history. If you have an innate
-            passion for art and untouched empathy for artists, this is the place
-            you have to be.
-          </p>
-          <p>Want to know some more about <b>Kumortuli?</b></p>
-          <a
-            class="btn btn-primary"
-            href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"
-            role="button"
-            target="blank"
-            >Click Here</a
-          >
-        </div>
-        <div class="col-md-6">
-          <img src="pic/place4.jpg" style="height: 300px; width: 500px" />
-        </div>
+    </div>
+    <h3 class="mt-5">4. Kumortuli</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <p>
+          If you’re looking for the ultimate cultural tour of Kolkata, turn
+          your graze towards the artistic lanes of Kumortuli. The traditional
+          potters’ quarter is where most of the globally admired Durga idols
+          are sculpted with devotion and perfection for the famous Durga Puja.
+          The skilled potters here depend on their ancestral art of clay idol
+          making for their livelihood. Over 150 families and thousands of
+          artisans work hard in the congested studios to bring out some of the
+          most intricate work ever seen in history. If you have an innate
+          passion for art and untouched empathy for artists, this is the place
+          you have to be.
+        </p>
+        <p>Want to know some more about <b>Kumortuli?</b></p>
+        <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata" role="button"
+          target="blank">Click Here</a>
       </div>
-      <h3 class="mt-5">5. North Kolkata</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <img src="pic/place5.jpg" style="height: 300px; width: 500px" />
-        </div>
-        <div class="col-md-6">
-          <p>
-            The Northern part of Kolkata houses the old buildings belonging to
-            the Zamindars (Landlords), other rich Bengalis who used to trade
-            with the British. It preserves the cultural heritage of Kolkata. The
-            building structures give an impression of the royal people who
-            stayed there. The area is generally crowded and has some interesting
-            markets including the famous Posta, Burrabazar whole sale markets,
-            College Street Book market where you can trace many out of print
-            books with a little patience. While in College Street a visit to the
-            College St Coffee House is a must. Also around the area are the
-            Calcutta Medical College, the Presidency College and Calcutta
-            University.
-          </p>
-          <p>
-            If you are into old creatures and old buildings and architectures
-            then north kolkata narrow lanes is the place for you.
-          </p>
-          <p>Want to know some more about <b>North Kolkata?</b></p>
-          <a
-            class="btn btn-primary"
-            href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"
-            role="button"
-            target="blank"
-            >Click Here</a
-          >
-        </div>
+      <div class="col-md-6">
+        <img src="pic/place4.jpg" class="w-100" />
       </div>
-      <h3 class="mt-5">6. Eco Park</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <p>
-            Eco-Tourism Park in Kolkata is an expansive urban park designed to
-            promote eco-tourism in the city. It is the biggest urban park in
-            India and occupies over 475 acres of land. The beauty of the
-            location increases ten folds because of a water body that surrounds
-            the park and forms an island in the middle. It is often visited by
-            picnickers or those who want a quick escape from mundane lives. The
-            beautiful and well-maintained landscape is a perfect retreat for
-            nature lovers.
-          </p>
+    </div>
+    <h3 class="mt-5">5. North Kolkata</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="pic/place5.jpg" class="w-100" />
+      </div>
+      <div class="col-md-6">
+        <p>
+          The Northern part of Kolkata houses the old buildings belonging to
+          the Zamindars (Landlords), other rich Bengalis who used to trade
+          with the British. It preserves the cultural heritage of Kolkata. The
+          building structures give an impression of the royal people who
+          stayed there. The area is generally crowded and has some interesting
+          markets including the famous Posta, Burrabazar whole sale markets,
+          College Street Book market where you can trace many out of print
+          books with a little patience. While in College Street a visit to the
+          College St Coffee House is a must. Also around the area are the
+          Calcutta Medical College, the Presidency College and Calcutta
+          University.
+        </p>
+        <p>
+          If you are into old creatures and old buildings and architectures
+          then north kolkata narrow lanes is the place for you.
+        </p>
+        <p>Want to know some more about <b>North Kolkata?</b></p>
+        <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata" role="button"
+          target="blank">Click Here</a>
+      </div>
+    </div>
+    <h3 class="mt-5">6. Eco Park</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <p>
+          Eco-Tourism Park in Kolkata is an expansive urban park designed to
+          promote eco-tourism in the city. It is the biggest urban park in
+          India and occupies over 475 acres of land. The beauty of the
+          location increases ten folds because of a water body that surrounds
+          the park and forms an island in the middle. It is often visited by
+          picnickers or those who want a quick escape from mundane lives. The
+          beautiful and well-maintained landscape is a perfect retreat for
+          nature lovers.
+        </p>
 
-          <p>
-            The idea of an Eco-Tourism Park in Kolkata was proposed by Mamata
-            Banerjee, the Chief Minister of the state of West Bengal.It has
-            three major parts - the ecological zones, the gardens and the
-            recreational zones making it a perfect getaway to relax and unwind.
-            They have some activities that visitors can choose from to suit
-            their requirement. They also have cottages and conference halls that
-            can be rented for personal or business needs. The Eco Park is a
-            beautiful respite from the developing concrete jungle in the city.
-          </p>
-          <p>Want to know some more about <b>Eco Park?</b></p>
-          <a
-            class="btn btn-primary"
-            href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"
-            role="button"
-            target="blank"
-            >Click Here</a
-          >
-        </div>
-        <div class="col-md-6">
-          <img src="pic/card5.jfif" style="height: 300px; width: 500px" />
-        </div>
+        <p>
+          The idea of an Eco-Tourism Park in Kolkata was proposed by Mamata
+          Banerjee, the Chief Minister of the state of West Bengal.It has
+          three major parts - the ecological zones, the gardens and the
+          recreational zones making it a perfect getaway to relax and unwind.
+          They have some activities that visitors can choose from to suit
+          their requirement. They also have cottages and conference halls that
+          can be rented for personal or business needs. The Eco Park is a
+          beautiful respite from the developing concrete jungle in the city.
+        </p>
+        <p>Want to know some more about <b>Eco Park?</b></p>
+        <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata" role="button"
+          target="blank">Click Here</a>
       </div>
-      <h3 class="mt-5">7. Science City</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <img src="pic/place6.jpg" style="height: 300px; width: 500px" />
-        </div>
-        <div class="col-md-6">
-          <p>
-            The Science city was inaugurated on 1st July 1997. It is one of the
-            finest and the largest science museums in the world and provides a
-            fun way of learning science. Under the National Council of Science
-            Museums, the Science City in Kolkata is the largest science centre
-            in the entire Indian Subcontinent.It is located at the crossing of
-            the EM Bypass and the JBS Halder Avenue in Kolkata. The science city
-            is a perfect blend of education with fun.All in all, science city is
-            going to offer you a phenomenal experience with your friends and
-            family and totally make your holiday worth it.
-          </p>
+      <div class="col-md-6">
+        <img src="pic/card5.jfif" class="w-100" />
+      </div>
+    </div>
+    <h3 class="mt-5">7. Science City</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="pic/place6.jpg" class="w-100" />
+      </div>
+      <div class="col-md-6">
+        <p>
+          The Science city was inaugurated on 1st July 1997. It is one of the
+          finest and the largest science museums in the world and provides a
+          fun way of learning science. Under the National Council of Science
+          Museums, the Science City in Kolkata is the largest science centre
+          in the entire Indian Subcontinent.It is located at the crossing of
+          the EM Bypass and the JBS Halder Avenue in Kolkata. The science city
+          is a perfect blend of education with fun.All in all, science city is
+          going to offer you a phenomenal experience with your friends and
+          family and totally make your holiday worth it.
+        </p>
 
-          <p>
-            The ground floor of the science city comprises of some optical
-            illusions which are very interesting to look at. It is always so
-            much fun to watch yourself taking a variety of shapes in front of
-            the optical mirrors.It is a favourite amongst kids as well as
-            adults. Tornado, the energy ball, ocean waves and quicksand are a
-            must watch. Time Machine is a common favourite amongst all the
-            visitors. You can try the ropeway as well and get a bird's eye view
-            of the city.
-          </p>
-          <p>Want to know some more about <b>Science City?</b></p>
-          <a
-            class="btn btn-primary"
-            href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"
-            role="button"
-            target="blank"
-            >Click Here</a
-          >
-        </div>
+        <p>
+          The ground floor of the science city comprises of some optical
+          illusions which are very interesting to look at. It is always so
+          much fun to watch yourself taking a variety of shapes in front of
+          the optical mirrors.It is a favourite amongst kids as well as
+          adults. Tornado, the energy ball, ocean waves and quicksand are a
+          must watch. Time Machine is a common favourite amongst all the
+          visitors. You can try the ropeway as well and get a bird's eye view
+          of the city.
+        </p>
+        <p>Want to know some more about <b>Science City?</b></p>
+        <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata" role="button"
+          target="blank">Click Here</a>
       </div>
-      <h3 class="mt-5">8. Biswa Bangla Gate</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <p>
-            Biswa Bangla Gate, popularly known as Kolkata Gate, is the new icon
-            of a rising Bengal, the same way London Eye is for the UK and Eiffel
-            Tower is for Paris.
-          </p>
+    </div>
+    <h3 class="mt-5">8. Biswa Bangla Gate</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <p>
+          Biswa Bangla Gate, popularly known as Kolkata Gate, is the new icon
+          of a rising Bengal, the same way London Eye is for the UK and Eiffel
+          Tower is for Paris.
+        </p>
 
-          <p>
-            Chief Minister Mamata Banerjee has left no stone unturned in trying
-            to make a new Bengal and not so long ago, she came up with the idea
-            of having a gateway to modern Kolkata, one that would welcome
-            tourists, entrepreneurs, scholars, guests and people of all talent
-            as they landed at the airport and began driving into the city. It
-            would be a gateway so iconic that no one would be left in any doubt
-            that Bengal is rising and the new Bengal is here and now.
-          </p>
-          <p>Want to know some more about <b>Biswa Bangla Gate?</b></p>
-          <a
-            class="btn btn-primary"
-            href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"
-            role="button"
-            target="blank"
-            >Click Here</a
-          >
-        </div>
-        <div class="col-md-6">
-          <img src="pic/place7.jpg" style="height: 300px; width: 500px" />
-        </div>
+        <p>
+          Chief Minister Mamata Banerjee has left no stone unturned in trying
+          to make a new Bengal and not so long ago, she came up with the idea
+          of having a gateway to modern Kolkata, one that would welcome
+          tourists, entrepreneurs, scholars, guests and people of all talent
+          as they landed at the airport and began driving into the city. It
+          would be a gateway so iconic that no one would be left in any doubt
+          that Bengal is rising and the new Bengal is here and now.
+        </p>
+        <p>Want to know some more about <b>Biswa Bangla Gate?</b></p>
+        <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata" role="button"
+          target="blank">Click Here</a>
       </div>
-      <h3 class="mt-5">9. Nicco Park</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <img src="pic/place8.jfif" style="height: 300px; width: 500px" />
-        </div>
-        <div class="col-md-6">
-          <p>
-            Nicco Park is an amusement park frequently visited for entertainment
-            and recreational purposes. It is also called the "Disney Land of
-            West Bengal" and attracts visitors in large numbers throughout the
-            year.Every aspect of the rides here is appropriately explained at
-            the beginning for the visitors to learn. So, one will find charts
-            and boards displayed at the entrance of every ride illustrating the
-            principles used to ensure a safe and fun ride. The park has numerous
-            amusement rides and shows which are not just recreational but
-            educational also. It is, therefore, a favourite amongst parent and
-            youngsters who often prefer the attraction as a picnic spot.
-          </p>
+      <div class="col-md-6">
+        <img src="pic/place7.jpg" class="w-100" />
+      </div>
+    </div>
+    <h3 class="mt-5">9. Nicco Park</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="pic/place8.jfif" class="w-100" />
+      </div>
+      <div class="col-md-6">
+        <p>
+          Nicco Park is an amusement park frequently visited for entertainment
+          and recreational purposes. It is also called the "Disney Land of
+          West Bengal" and attracts visitors in large numbers throughout the
+          year.Every aspect of the rides here is appropriately explained at
+          the beginning for the visitors to learn. So, one will find charts
+          and boards displayed at the entrance of every ride illustrating the
+          principles used to ensure a safe and fun ride. The park has numerous
+          amusement rides and shows which are not just recreational but
+          educational also. It is, therefore, a favourite amongst parent and
+          youngsters who often prefer the attraction as a picnic spot.
+        </p>
 
-          <p>
-            Nicco Park has been functioning as an amusement park for the past 20
-            years. It is the first amusement park in India that has obtained
-            recognition from Quality Management System, Safety Management System
-            and Environment Management System. Nicco Park is also the first
-            amusement park in the world to have obtained a 'Social
-            Accountability' certificate. Those looking for an entertaining,
-            educational and a recreational escape must head to the Nicco Park.
-          </p>
-          <p>Want to know some more about <b>Nicco Park?</b></p>
-          <a
-            class="btn btn-primary"
-            href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"
-            role="button"
-            target="blank"
-            >Click Here</a
-          >
-        </div>
+        <p>
+          Nicco Park has been functioning as an amusement park for the past 20
+          years. It is the first amusement park in India that has obtained
+          recognition from Quality Management System, Safety Management System
+          and Environment Management System. Nicco Park is also the first
+          amusement park in the world to have obtained a 'Social
+          Accountability' certificate. Those looking for an entertaining,
+          educational and a recreational escape must head to the Nicco Park.
+        </p>
+        <p>Want to know some more about <b>Nicco Park?</b></p>
+        <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata" role="button"
+          target="blank">Click Here</a>
       </div>
-      <h3 class="mt-5">10. St. Paul's Cathedral</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <p>
-            Located in the heart of the City of Joy - Kolkata, St Paul's is an
-            Anglican cathedral that operates under CNI – Church of North India.
-            It is a must-visit for those who seek enriching historical and
-            architectural pleasure on their vacation trips. In the heart of the
-            city, this colossal structure reminds you of the colonial times and
-            takes you down the memory lane.It looks most beautiful during the
-            Christmas holidays, when the cathedral, the garden around it as well
-            as the surrounding streets are all bathed in light and festivities.
-          </p>
+    </div>
+    <h3 class="mt-5">10. St. Paul's Cathedral</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <p>
+          Located in the heart of the City of Joy - Kolkata, St Paul's is an
+          Anglican cathedral that operates under CNI – Church of North India.
+          It is a must-visit for those who seek enriching historical and
+          architectural pleasure on their vacation trips. In the heart of the
+          city, this colossal structure reminds you of the colonial times and
+          takes you down the memory lane.It looks most beautiful during the
+          Christmas holidays, when the cathedral, the garden around it as well
+          as the surrounding streets are all bathed in light and festivities.
+        </p>
 
-          <p>
-            It is the first Episcopalian church in Asia. The building follows
-            Indo-Gothic style and its structure is complete with a cascading
-            white edifice, towering spire and colourful tinted windows. Inside,
-            it has a huge nave, majestic altar and chancel, along with carvings
-            and paintings depicting great moments and events of Christian
-            history.
-          </p>
-          <p>Want to know some more about <b>St. Paul's Cathedral?</b></p>
-          <a
-            class="btn btn-primary"
-            href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"
-            role="button"
-            target="blank"
-            >Click Here</a
-          >
-        </div>
-        <div class="col-md-6">
-          <img src="pic/place9.jpg" style="height: 300px; width: 500px" />
-        </div>
+        <p>
+          It is the first Episcopalian church in Asia. The building follows
+          Indo-Gothic style and its structure is complete with a cascading
+          white edifice, towering spire and colourful tinted windows. Inside,
+          it has a huge nave, majestic altar and chancel, along with carvings
+          and paintings depicting great moments and events of Christian
+          history.
+        </p>
+        <p>Want to know some more about <b>St. Paul's Cathedral?</b></p>
+        <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata" role="button"
+          target="blank">Click Here</a>
       </div>
-      <h3 class="mt-5">11. Pailan Mandir</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <img src="pic/place10.jpg" style="height: 300px; width: 500px" />
-        </div>
-        <div class="col-md-6">
-          <p>
-            Baps swaminarayan mandir kolkata is one of the most remarkable
-            buildings in the city. This beautiful Swaminarayan temple is a must
-            visit, given everything that it offers. The most striking feature of
-            this attraction is its architecture and design. Magnificent yet
-            spiritual, the entire premises gives off a soothing vibe that is
-            enough to calm one down and relax. For those who are more spiritual
-            side or wish to know more about the swaminarayan mandir can come
-            here in the morning to attend the morning prayers and chantings.
-            Converse with the locals or talk to priests as they will fill you in
-            on the place’s history. There is a nice parking outside along with
-            plenty of restaurants to make sure visitors don’t face any hassle.
-            Worth coming for a calming spiritual detour.
-          </p>
-          <p>Want to know some more about <b>Pailan Mandir?</b></p>
-          <a
-            class="btn btn-primary"
-            href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"
-            role="button"
-            target="blank"
-            >Click Here</a
-          >
-        </div>
+      <div class="col-md-6">
+        <img src="pic/place9.jpg" class="w-100" />
       </div>
-      <h3 class="mt-5">12. Dakshineswar Kali Temple</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <p>
-            Flanked by River Hooghly on the Eastern bank, Dakshineswar Kali is a
-            revered Hindu navratna temple which is presided by Bhavatarini- a
-            form of Goddess Kali. Built in Rani Rashmoni in 1855 who was a
-            devotee of Goddess Kali, the Bhavatarini form means ‘she, who
-            liberates her devotees from the ocean of existence.’ Aside from the
-            main shrine, there are also several rooms built along the complex
-            surrounding the boundary walls.
-          </p>
+    </div>
+    <h3 class="mt-5">11. Pailan Mandir</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="pic/place10.jpg" class="w-100" />
+      </div>
+      <div class="col-md-6">
+        <p>
+          Baps swaminarayan mandir kolkata is one of the most remarkable
+          buildings in the city. This beautiful Swaminarayan temple is a must
+          visit, given everything that it offers. The most striking feature of
+          this attraction is its architecture and design. Magnificent yet
+          spiritual, the entire premises gives off a soothing vibe that is
+          enough to calm one down and relax. For those who are more spiritual
+          side or wish to know more about the swaminarayan mandir can come
+          here in the morning to attend the morning prayers and chantings.
+          Converse with the locals or talk to priests as they will fill you in
+          on the place’s history. There is a nice parking outside along with
+          plenty of restaurants to make sure visitors don’t face any hassle.
+          Worth coming for a calming spiritual detour.
+        </p>
+        <p>Want to know some more about <b>Pailan Mandir?</b></p>
+        <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata" role="button"
+          target="blank">Click Here</a>
+      </div>
+    </div>
+    <h3 class="mt-5">12. Dakshineswar Kali Temple</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <p>
+          Flanked by River Hooghly on the Eastern bank, Dakshineswar Kali is a
+          revered Hindu navratna temple which is presided by Bhavatarini- a
+          form of Goddess Kali. Built in Rani Rashmoni in 1855 who was a
+          devotee of Goddess Kali, the Bhavatarini form means ‘she, who
+          liberates her devotees from the ocean of existence.’ Aside from the
+          main shrine, there are also several rooms built along the complex
+          surrounding the boundary walls.
+        </p>
 
-          <p>
-            In these rooms, there are shrines dedicated to several gods. 12 of
-            these are dedicated to Lord Shiva, 1 to Radha Krishna, and 1 to Rani
-            Rashmoni. In addition to that, there is also a bathing ghat on the
-            river. Besides, the temple is also known for its famous association
-            with Sri Ramakrishna who was a yogi, mystic and a revered person of
-            the 19th century Bengal. Other than paying your respect to the gods
-            and goddesses, you can also admire the gorgeous architectural
-            designs and beautiful scenic beauty.
-          </p>
-          <p>Want to know some more about <b>Dakshineswar Kali Temple?</b></p>
-          <a
-            class="btn btn-primary"
-            href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"
-            role="button"
-            target="blank"
-            >Click Here</a
-          >
-        </div>
-        <div class="col-md-6">
-          <img src="pic/place11.jfif" style="height: 300px; width: 500px" />
-        </div>
+        <p>
+          In these rooms, there are shrines dedicated to several gods. 12 of
+          these are dedicated to Lord Shiva, 1 to Radha Krishna, and 1 to Rani
+          Rashmoni. In addition to that, there is also a bathing ghat on the
+          river. Besides, the temple is also known for its famous association
+          with Sri Ramakrishna who was a yogi, mystic and a revered person of
+          the 19th century Bengal. Other than paying your respect to the gods
+          and goddesses, you can also admire the gorgeous architectural
+          designs and beautiful scenic beauty.
+        </p>
+        <p>Want to know some more about <b>Dakshineswar Kali Temple?</b></p>
+        <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata" role="button"
+          target="blank">Click Here</a>
       </div>
-      <h3 class="mt-5">13. New Market</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <img src="pic/place12.jpg" style="height: 300px; width: 500px" />
-        </div>
-        <div class="col-md-6">
-          <p>
-            The New Market is one of the busiest places in Kolkata. It is
-            located in the heart of the city and is one of the shopping hubs in
-            Kolkata. The New Market in Kolkata, which is also known as the Hogg
-            Market, is located on the Lindsay Street. It was commenced in the
-            late 19th century by the East India Company. Today it houses not
-            only shops of garments and jewelleries but also arrays shops of
-            electronic goods, leather items, dry fruits, cookies and cakes,
-            crystal items, groceries, kitchen items, household goods and
-            flowers. There are over 2000 stalls under its roof. It is an
-            absolute shoppers’ paradise. The prominent places to visit in
-            Kolkata close to the new Market are Indian Museum, Eden Gardens, BBD
-            Bag, Bahu Bazar. The Grand Hotel is approximately 100 meters away
-            from the New Market.
-          </p>
-          <p>Want to know some more about <b>New Market?</b></p>
-          <a
-            class="btn btn-primary"
-            href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"
-            role="button"
-            target="blank"
-            >Click Here</a
-          >
-        </div>
+      <div class="col-md-6">
+        <img src="pic/place11.jfif" class="w-100" />
       </div>
-      <h3 class="mt-5">14. College Street</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <p>
-            Book lovers find the paradise of Kolkata in the name as "College
-            Street" also known as 'boi para( Streets of books)'.The largest
-            wholesale / retail book market in Asia. There is no such book which
-            you will not get here. Also the discounts offered are the best. This
-            place is just heaven for all book lovers.
-          </p>
-          <p>
-            The history of College Street dates back to the British era. Within
-            a span of 1 sqare kilometer there are more educational institutes
-            than anywhare else in India, including Hindu School, Hare School,
-            The Calcutta University, Precidency College (now University).
-            Medical College, the very first Medcial College in Asia, Sanskrit
-            College, Goenka Collge of Commerce and Business Administration, Seth
-            Soorajmal Jalan Girls College, City College of Commerce. There are
-            more than 2000 Bookstalls, selling all kinds of Books. This is
-            probably the largest and the oldest books market in India, Dasgupta
-            and Co. Pvt Ltd is the oldest among them, books used to be supplied
-            from here to as far as Kabul to Rangoon.
-          </p>
-          <p>Want to know some more about <b>College Street?</b></p>
-          <a
-            class="btn btn-primary"
-            href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"
-            role="button"
-            target="blank"
-            >Click Here</a
-          >
-        </div>
-        <div class="col-md-6">
-          <img src="pic/place14.jpg" style="height: 300px; width: 500px" />
-        </div>
+    </div>
+    <h3 class="mt-5">13. New Market</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="pic/place12.jpg" class="w-100" />
       </div>
-      <h3 class="mt-5">15. Rabindra Sarobar</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <img
-            src="pic/Rabindra-Sarobar.jpg"
-            style="height: 300px; width: 500px"
-          />
-        </div>
-        <div class="col-md-6">
-          <p>
-            The erstwhile Dhakuria Lake is an artificial tank in South Kolkata.
-            Spread over 75 acres, it is home to varied migratory birds from
-            Siberia and Russia. The lake is home to many fish. Surrounded by
-            gardens, children's park and auditorium, this location has been
-            developed over the years to encourage community and welfare. It is a
-            popular recreational spot for idyllic picnics.
-          </p>
-          <p>Want to know some more about <b>Rabindra Sarobar?</b></p>
-          <a
-            class="btn btn-primary"
-            href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"
-            role="button"
-            target="blank"
-            >Click Here</a
-          >
-        </div>
+      <div class="col-md-6">
+        <p>
+          The New Market is one of the busiest places in Kolkata. It is
+          located in the heart of the city and is one of the shopping hubs in
+          Kolkata. The New Market in Kolkata, which is also known as the Hogg
+          Market, is located on the Lindsay Street. It was commenced in the
+          late 19th century by the East India Company. Today it houses not
+          only shops of garments and jewelleries but also arrays shops of
+          electronic goods, leather items, dry fruits, cookies and cakes,
+          crystal items, groceries, kitchen items, household goods and
+          flowers. There are over 2000 stalls under its roof. It is an
+          absolute shoppers’ paradise. The prominent places to visit in
+          Kolkata close to the new Market are Indian Museum, Eden Gardens, BBD
+          Bag, Bahu Bazar. The Grand Hotel is approximately 100 meters away
+          from the New Market.
+        </p>
+        <p>Want to know some more about <b>New Market?</b></p>
+        <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata" role="button"
+          target="blank">Click Here</a>
       </div>
-      <h3 class="mt-5">16. Eden Gardens</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <p>
-            Home of cricket in Kolkata, The Eden Gardens is a beautiful,
-            well-maintained cricket stadium located in Kolkata's B. B. D. Bagh
-            area, near State Secretariat and Calcutta High Court. It was
-            established in the year 1864 and was laid by Governor- General
-            Auckland, who named the gardens and the cricket ground after his
-            sisters Emily and Fanny Eden. Stretched over 50 acres, this cricket
-            stadium has the capacity to seat about 66,349 people and is the
-            second largest stadiums in the world.
-          </p>
+    </div>
+    <h3 class="mt-5">14. College Street</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <p>
+          Book lovers find the paradise of Kolkata in the name as "College
+          Street" also known as 'boi para( Streets of books)'.The largest
+          wholesale / retail book market in Asia. There is no such book which
+          you will not get here. Also the discounts offered are the best. This
+          place is just heaven for all book lovers.
+        </p>
+        <p>
+          The history of College Street dates back to the British era. Within
+          a span of 1 sqare kilometer there are more educational institutes
+          than anywhare else in India, including Hindu School, Hare School,
+          The Calcutta University, Precidency College (now University).
+          Medical College, the very first Medcial College in Asia, Sanskrit
+          College, Goenka Collge of Commerce and Business Administration, Seth
+          Soorajmal Jalan Girls College, City College of Commerce. There are
+          more than 2000 Bookstalls, selling all kinds of Books. This is
+          probably the largest and the oldest books market in India, Dasgupta
+          and Co. Pvt Ltd is the oldest among them, books used to be supplied
+          from here to as far as Kabul to Rangoon.
+        </p>
+        <p>Want to know some more about <b>College Street?</b></p>
+        <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata" role="button"
+          target="blank">Click Here</a>
+      </div>
+      <div class="col-md-6">
+        <img src="pic/place14.jpg" class="w-100" />
+      </div>
+    </div>
+    <h3 class="mt-5">15. Rabindra Sarobar</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="pic/Rabindra-Sarobar.jpg" class="w-100" />
+      </div>
+      <div class="col-md-6">
+        <p>
+          The erstwhile Dhakuria Lake is an artificial tank in South Kolkata.
+          Spread over 75 acres, it is home to varied migratory birds from
+          Siberia and Russia. The lake is home to many fish. Surrounded by
+          gardens, children's park and auditorium, this location has been
+          developed over the years to encourage community and welfare. It is a
+          popular recreational spot for idyllic picnics.
+        </p>
+        <p>Want to know some more about <b>Rabindra Sarobar?</b></p>
+        <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata" role="button"
+          target="blank">Click Here</a>
+      </div>
+    </div>
+    <h3 class="mt-5">16. Eden Gardens</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <p>
+          Home of cricket in Kolkata, The Eden Gardens is a beautiful,
+          well-maintained cricket stadium located in Kolkata's B. B. D. Bagh
+          area, near State Secretariat and Calcutta High Court. It was
+          established in the year 1864 and was laid by Governor- General
+          Auckland, who named the gardens and the cricket ground after his
+          sisters Emily and Fanny Eden. Stretched over 50 acres, this cricket
+          stadium has the capacity to seat about 66,349 people and is the
+          second largest stadiums in the world.
+        </p>
 
-          <p>
-            Eden Gardens Stadium plays host to many sports, most importantly
-            cricket, which takes place lies right across the garden. Extremely
-            popular as a sporting destination, it regularly hosts one day, test
-            and T20 matches. Presently it is the home turf of IPL Team Kolkata
-            Knight Riders and the regional Bengal Cricket Team. Eden Garden is
-            also known to host several Association Matches. You can visit the
-            stadium when no matches are being held. In order to do so, you need
-            permission from CAB or Cricket Association of Bengal.
-          </p>
-          <p>Want to know some more about <b>Eden Gardens?</b></p>
-          <a
-            class="btn btn-primary"
-            href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"
-            role="button"
-            target="blank"
-            >Click Here</a
-          >
-        </div>
-        <div class="col-md-6">
-          <img src="pic/eden-gardens.jpg" style="height: 300px; width: 500px" />
-        </div>
+        <p>
+          Eden Gardens Stadium plays host to many sports, most importantly
+          cricket, which takes place lies right across the garden. Extremely
+          popular as a sporting destination, it regularly hosts one day, test
+          and T20 matches. Presently it is the home turf of IPL Team Kolkata
+          Knight Riders and the regional Bengal Cricket Team. Eden Garden is
+          also known to host several Association Matches. You can visit the
+          stadium when no matches are being held. In order to do so, you need
+          permission from CAB or Cricket Association of Bengal.
+        </p>
+        <p>Want to know some more about <b>Eden Gardens?</b></p>
+        <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata" role="button"
+          target="blank">Click Here</a>
       </div>
-      <h3 class="mt-5">17. Indian Museum</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <img src="pic/museum.jfif" style="height: 300px; width: 500px" />
-        </div>
-        <div class="col-md-6">
-          <p>
-            The ninth oldest museum of the world and largest in India, the
-            Indian Museum is located in the city of joy - Kolkata. The
-            foundation stone of the Indian Museum was laid down in the year 1814
-            and has been a centre of multidisciplinary activities ever since.
-            Popularly known as 'Jadughar', it has the finest collection of
-            contemporary paintings, sacred relics of Buddha, Egyptian mummies
-            and ancient sculptures. In addition to these, the Indian Museum
-            boasts of some of the most exquisite collections of ornaments,
-            fossils, skeletons, antiques, armours, and stunning Mughal
-            paintings.
-          </p>
+      <div class="col-md-6">
+        <img src="pic/eden-gardens.jpg" class="w-100" />
+      </div>
+    </div>
+    <h3 class="mt-5">17. Indian Museum</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="pic/museum.jfif" class="w-100" />
+      </div>
+      <div class="col-md-6">
+        <p>
+          The ninth oldest museum of the world and largest in India, the
+          Indian Museum is located in the city of joy - Kolkata. The
+          foundation stone of the Indian Museum was laid down in the year 1814
+          and has been a centre of multidisciplinary activities ever since.
+          Popularly known as 'Jadughar', it has the finest collection of
+          contemporary paintings, sacred relics of Buddha, Egyptian mummies
+          and ancient sculptures. In addition to these, the Indian Museum
+          boasts of some of the most exquisite collections of ornaments,
+          fossils, skeletons, antiques, armours, and stunning Mughal
+          paintings.
+        </p>
 
-          <p>
-            Presently, the museum has 35 galleries which have been divided into
-            six categories namely Art, Archaeology, Anthropology, Geology,
-            Zoology and Economic Botany. For those inquisitive about history,
-            there is also a library and bookshop present within the museum
-            premises.
-          </p>
-          <p>Want to know some more about <b>Indian Museum?</b></p>
-          <a
-            class="btn btn-primary"
-            href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"
-            role="button"
-            target="blank"
-            >Click Here</a
-          >
-        </div>
+        <p>
+          Presently, the museum has 35 galleries which have been divided into
+          six categories namely Art, Archaeology, Anthropology, Geology,
+          Zoology and Economic Botany. For those inquisitive about history,
+          there is also a library and bookshop present within the museum
+          premises.
+        </p>
+        <p>Want to know some more about <b>Indian Museum?</b></p>
+        <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata" role="button"
+          target="blank">Click Here</a>
       </div>
-      <h3 class="mt-5">18. Birla Planetarium</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <p>
-            Situated at the famous Chowringhee Road right in the proximity of
-            Victoria Memorial and St. Paul's Cathedral ,Birla planetarium is the
-            largest planetarium in Asia and the second largest in the world!
-            Situated in the city of joy - Kolkata. It is one of the three
-            planetariums present in India. Also known as Taramandal, the Birla
-            Planetarium regularly holds many shows and programs are in various
-            languages including Hindi, English, Bengali, and other regional
-            languages.
-          </p>
+    </div>
+    <h3 class="mt-5">18. Birla Planetarium</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <p>
+          Situated at the famous Chowringhee Road right in the proximity of
+          Victoria Memorial and St. Paul's Cathedral ,Birla planetarium is the
+          largest planetarium in Asia and the second largest in the world!
+          Situated in the city of joy - Kolkata. It is one of the three
+          planetariums present in India. Also known as Taramandal, the Birla
+          Planetarium regularly holds many shows and programs are in various
+          languages including Hindi, English, Bengali, and other regional
+          languages.
+        </p>
 
-          <p>
-            A visit to the Birla Planetarium is an exciting way to ignite your
-            interest in science and the motion of planets. People, especially
-            astronomy lovers, arrive from all over the world to experience the
-            amazing shows organized here. A trip here includes a tour of the
-            planets, where interesting details about them and the other
-            fascinating celestial bodies present in our universe are discussed.
-            Silence rings loud while the show goes on, which in itself is a
-            testament to the mesmerising effect of the shows here.
-          </p>
-          <p>Want to know some more about <b>Birla Planetarium?</b></p>
-          <a
-            class="btn btn-primary"
-            href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"
-            role="button"
-            target="blank"
-            >Click Here</a
-          >
-        </div>
-        <div class="col-md-6">
-          <img src="pic/birla.jpg" style="height: 300px; width: 500px" />
-        </div>
+        <p>
+          A visit to the Birla Planetarium is an exciting way to ignite your
+          interest in science and the motion of planets. People, especially
+          astronomy lovers, arrive from all over the world to experience the
+          amazing shows organized here. A trip here includes a tour of the
+          planets, where interesting details about them and the other
+          fascinating celestial bodies present in our universe are discussed.
+          Silence rings loud while the show goes on, which in itself is a
+          testament to the mesmerising effect of the shows here.
+        </p>
+        <p>Want to know some more about <b>Birla Planetarium?</b></p>
+        <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata" role="button"
+          target="blank">Click Here</a>
       </div>
-      <h3 class="mt-5">19. Second Hoogly Bridge</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <img src="pic/hoogly.jpg" style="height: 300px; width: 500px" />
-        </div>
-        <div class="col-md-6">
-          <p>
-            Vidyasagar Setu – otherwise known as the second Hooghly Bridge
-            opened to the traffic in 1992 is the finest product of modern
-            architecture and technology. It is intricately connected with cities
-            of Kolkata and Howrah by a series of over bridges and situated at a
-            distance of 1.5 k.m. southwards of Ravindra Setu. It is erected on
-            only four pillars and hung on 121 number of iron ropes. The bridge
-            is 458 meters long and 115 meters wide. One can have a glimpse of a
-            large part of Kolkata standing at the middle of the Bridge. The
-            beauty of the bridge and its background is largely utilized by the
-            Film Industry for shooting purposes.
-          </p>
-          <p>Want to know some more about <b>Second Hoogly Bridge?</b></p>
-          <a
-            class="btn btn-primary"
-            href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"
-            role="button"
-            target="blank"
-            >Click Here</a
-          >
-        </div>
+      <div class="col-md-6">
+        <img src="pic/birla.jpg" class="w-100" />
       </div>
-      <h3 class="mt-5">20. Alipore Zoo</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <p>
-            The Alipore Zoo, also known as the Calcutta Zoo or the Zoological
-            Garden of Alipore, is the oldest zoological park to have been
-            established in India and is a major tourist attraction in Kolkata,
-            West Bengal. The Alipore Zoo attracts tourists from all across the
-            nation who visit the zoo to explore the wildlife that thrives here.
-          </p>
+    </div>
+    <h3 class="mt-5">19. Second Hoogly Bridge</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="pic/hoogly.jpg" class="w-100" />
+      </div>
+      <div class="col-md-6">
+        <p>
+          Vidyasagar Setu – otherwise known as the second Hooghly Bridge
+          opened to the traffic in 1992 is the finest product of modern
+          architecture and technology. It is intricately connected with cities
+          of Kolkata and Howrah by a series of over bridges and situated at a
+          distance of 1.5 k.m. southwards of Ravindra Setu. It is erected on
+          only four pillars and hung on 121 number of iron ropes. The bridge
+          is 458 meters long and 115 meters wide. One can have a glimpse of a
+          large part of Kolkata standing at the middle of the Bridge. The
+          beauty of the bridge and its background is largely utilized by the
+          Film Industry for shooting purposes.
+        </p>
+        <p>Want to know some more about <b>Second Hoogly Bridge?</b></p>
+        <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata" role="button"
+          target="blank">Click Here</a>
+      </div>
+    </div>
+    <h3 class="mt-5">20. Alipore Zoo</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <p>
+          The Alipore Zoo, also known as the Calcutta Zoo or the Zoological
+          Garden of Alipore, is the oldest zoological park to have been
+          established in India and is a major tourist attraction in Kolkata,
+          West Bengal. The Alipore Zoo attracts tourists from all across the
+          nation who visit the zoo to explore the wildlife that thrives here.
+        </p>
 
-          <p>
-            The Alipore Zoo is perhaps the most known for being the home of the
-            expired Aldabra giant tortoise 'Adwaita', a tortoise who had lived
-            for over 250 years before he died in the year 2006. The place is a
-            must-visit for nature enthusiasts, or for families with children, to
-            explore the abundant and plentiful wildlife of the country at its
-            best. Spread over an area of 46.5 acres, the zoo has been operating
-            since 1876, when it was first opened to the general public.The
-            Alipore Zoo becomes especially crowded during the winter seasons
-            when tourists flock to this popular destination in Kolkata in huge
-            numbers.
-          </p>
-          <p>Want to know some more about <b>Alipore Zoo?</b></p>
-          <a
-            class="btn btn-primary mb-4"
-            href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"
-            role="button"
-            target="blank"
-            >Click Here</a
-          >
+        <p>
+          The Alipore Zoo is perhaps the most known for being the home of the
+          expired Aldabra giant tortoise 'Adwaita', a tortoise who had lived
+          for over 250 years before he died in the year 2006. The place is a
+          must-visit for nature enthusiasts, or for families with children, to
+          explore the abundant and plentiful wildlife of the country at its
+          best. Spread over an area of 46.5 acres, the zoo has been operating
+          since 1876, when it was first opened to the general public.The
+          Alipore Zoo becomes especially crowded during the winter seasons
+          when tourists flock to this popular destination in Kolkata in huge
+          numbers.
+        </p>
+        <p>Want to know some more about <b>Alipore Zoo?</b></p>
+        <a class="btn btn-primary mb-4" href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata" role="button"
+          target="blank">Click Here</a>
+      </div>
+      <div class="col-md-6">
+        <img src="pic/alipore.jfif" class="w-100" />
+      </div>
+    </div>
+  </div>
+
+  <div class="contain">
+    <img src="pic/backphoto.jfif" alt="error" style="width: 100%" />
+    <div class="bott-left">
+      <div class="row mb-2" style="font-size: 20px">
+        <div class="col-3">
+          <p>Kalighat Temple</p>
         </div>
-        <div class="col-md-6">
-          <img src="pic/alipore.jfif" style="height: 300px; width: 500px" />
+        <div class="col-3">
+          <p>sovabajar rajbari</p>
+        </div>
+        <div class="col-3">
+          <p>Netaji Bhawan</p>
+        </div>
+        <div class="col-3">
+          <p>Parkstreet Cemetry</p>
+        </div>
+      </div>
+      <div class="row mb-2">
+        <div class="col-3">
+          <img src="pic/kolkata-kalighat-kali-temple-148387023647o.jpeg" class="w-100" />
+        </div>
+        <div class="col-3">
+          <img src="pic/sovabajr.jfif" class="w-100" />
+        </div>
+        <div class="col-3">
+          <img src="pic/netaji.jpg" class="w-100" />
+        </div>
+        <div class="col-3">
+          <img src="pic/cemetry.jpg" class="w-100" />
         </div>
       </div>
     </div>
-
-    <div class="contain">
-      <img src="pic/backphoto.jfif" alt="error" style="width: 100%" />
-      <div class="bott-left">
-        <div class="row mb-2" style="font-size: 20px">
-          <div class="col-3">
-            <p>Kalighat Temple</p>
-          </div>
-          <div class="col-3">
-            <p>sovabajar rajbari</p>
-          </div>
-          <div class="col-3">
-            <p>Netaji Bhawan</p>
-          </div>
-          <div class="col-3">
-            <p>Parkstreet Cemetry</p>
-          </div>
-        </div>
-        <div class="row mb-2">
-          <div class="col-3">
-            <img
-              src="pic/kolkata-kalighat-kali-temple-148387023647o.jpeg"
-              class="w-100"
-            />
-          </div>
-          <div class="col-3">
-            <img src="pic/sovabajr.jfif" class="w-100" />
-          </div>
-          <div class="col-3">
-            <img src="pic/netaji.jpg" class="w-100" />
-          </div>
-          <div class="col-3">
-            <img src="pic/cemetry.jpg" class="w-100" />
-          </div>
-        </div>
-      </div>
-      <div class="to-left mt-5 ml-2">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
-        reiciendis dicta eius natus repudiandae debitis numquam illum atque,
-        eveniet, itaque exercitationem maxime nemo beatae reprehenderit maiores
-        veniam quam? Recusandae exercitationem magnam, quis ducimus doloremque
-        fugiat libero ipsum consectetur, eveniet quibusdam a at quisquam est
-        quas quaerat deserunt, quia eius blanditiis consequatur doloribus
-        consequuntur nobis ex. Ipsam blanditiis veniam libero? Ad quasi autem ex
-        velit maxime, consectetur, cupiditate laboriosam labore animi asperiores
-        debitis saepe? Omnis laudantium ut repudiandae excepturi modi alias
-        quaerat vitae eius nesciunt accusantium ipsam eum repellat a, totam ea
-        consequatur! Quo aspernatur ex assumenda repellat perspiciatis vel
-        quidem.
-      </div>
-      <div
-        class="cente"
-        style="
+    <div class="to-left mt-5 ml-2">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
+      reiciendis dicta eius natus repudiandae debitis numquam illum atque,
+      eveniet, itaque exercitationem maxime nemo beatae reprehenderit maiores
+      veniam quam? Recusandae exercitationem magnam, quis ducimus doloremque
+      fugiat libero ipsum consectetur, eveniet quibusdam a at quisquam est
+      quas quaerat deserunt, quia eius blanditiis consequatur doloribus
+      consequuntur nobis ex. Ipsam blanditiis veniam libero? Ad quasi autem ex
+      velit maxime, consectetur, cupiditate laboriosam labore animi asperiores
+      debitis saepe? Omnis laudantium ut repudiandae excepturi modi alias
+      quaerat vitae eius nesciunt accusantium ipsam eum repellat a, totam ea
+      consequatur! Quo aspernatur ex assumenda repellat perspiciatis vel
+      quidem.
+    </div>
+    <div class="cente" style="
           font-family: 'Cookie', cursive;
           font-family: 'Dancing Script', cursive;
           font-size: 80px;
-        "
-      >
-        All About Kolkata
-      </div>
+        ">
+      All About Kolkata
     </div>
+  </div>
 
-    <!-- Footer -->
-    <footer
-      class="page-footer font-small mdb-color pt-4"
-      style="background-color: #e5cfc2; z-index: 999"
-    >
-      <!-- Footer Links -->
-      <div class="container text-center text-md-left">
-        <!-- Footer links -->
-        <div class="row text-center text-md-left mt-3 pb-3">
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">
-              All About Kolkata
-            </h6>
-            <p>
-              Hello i am shilpi, the developer of this website.I tried to do a
-              brief description of our city kolkata. If this page is benifical
-              for you at some point then i will be very thankfull. Give me a
-              review if you like it.
-            </p>
-          </div>
-          <!-- Grid column -->
-
-          <hr class="w-100 clearfix d-md-none" />
-
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">
-              About More information
-            </h6>
-            <p>
-              <a
-                href="https://www.seruminstitute.com/health_faq_covishield.php"
-                target="_blank"
-                >Covishield®</a
-              >
-            </p>
-            <p>
-              <a
-                href="https://www.bharatbiotech.com/covaxin.html"
-                target="_blank"
-                >Covaxin®</a
-              >
-            </p>
-            <p>
-              <a
-                href="https://www.cdc.gov/fungal/diseases/mucormycosis/index.html"
-                target="_blank"
-                >Mucormycosis disease</a
-              >
-            </p>
-            <p>
-              <a href="https://www.who.int/" target="_blank">W.H.O</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-
-          <hr class="w-100 clearfix d-md-none" />
-
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
-            <p>
-              <a href="sign.php">Your Account</a>
-            </p>
-            <p>
-              <a href="https://www.cowin.gov.in/" target="_blank">Cowin</a>
-            </p>
-            <p>
-              <a href="https://www.aarogyasetu.gov.in/" target="_blank"
-                >Arogya Setu</a
-              >
-            </p>
-            <p>
-              <a href="help.php">Help</a>
-            </p>
-          </div>
-
-          <!-- Grid column -->
-          <hr class="w-100 clearfix d-md-none" />
-
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
-            <p>
-              <i class="fas fa-home mr-3"></i> kolkata, haridevpur, k.p.mission
-            </p>
-            <p>
-              <i class="fas fa-envelope mr-3"></i> sarkarshilpi789@gmail.com
-            </p>
-            <p><i class="fas fa-phone mr-3"></i> +91 6295935886</p>
-            <p><i class="fas fa-print mr-3"></i> +91 8013715424</p>
-          </div>
-          <!-- Grid column -->
+  <!-- Footer -->
+  <footer class="page-footer font-small mdb-color pt-4" style="background-color: #e5cfc2; z-index: 999">
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+      <!-- Footer links -->
+      <div class="row text-center text-md-left mt-3 pb-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">
+            All About Kolkata
+          </h6>
+          <p>
+            Hello i am shilpi, the developer of this website.I tried to do a
+            brief description of our city kolkata. If this page is benifical
+            for you at some point then i will be very thankfull. Give me a
+            review if you like it.
+          </p>
         </div>
-        <!-- Footer links -->
+        <!-- Grid column -->
 
-        <hr />
+        <hr class="w-100 clearfix d-md-none" />
 
-        <!-- Grid row -->
-        <div class="row d-flex align-items-center">
-          <!-- Grid column -->
-          <div class="col-md-7 col-lg-8">
-            <!--Copyright-->
-            <p class="text-center text-md-left">
-              © 2021 Copyright:
-              <a href="#">
-                <strong> AllaboutKolkata.com</strong>
-              </a>
-            </p>
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-5 col-lg-4 ml-lg-0">
-            <!-- Social buttons -->
-            <div class="text-center text-md-right">
-              <ul class="list-unstyled list-inline">
-                <li class="list-inline-item">
-                  <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                    <i class="fab fa-google-plus-g"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="btn-floating btn-sm rgba-white-slight mx-1">
-                    <i class="fab fa-linkedin-in"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- Grid column -->
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">
+            About More information
+          </h6>
+          <p>
+            <a href="https://www.seruminstitute.com/health_faq_covishield.php" target="_blank">Covishield®</a>
+          </p>
+          <p>
+            <a href="https://www.bharatbiotech.com/covaxin.html" target="_blank">Covaxin®</a>
+          </p>
+          <p>
+            <a href="https://www.cdc.gov/fungal/diseases/mucormycosis/index.html" target="_blank">Mucormycosis
+              disease</a>
+          </p>
+          <p>
+            <a href="https://www.who.int/" target="_blank">W.H.O</a>
+          </p>
         </div>
-        <!-- Grid row -->
+        <!-- Grid column -->
+
+        <hr class="w-100 clearfix d-md-none" />
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+          <p>
+            <a href="sign.php">Your Account</a>
+          </p>
+          <p>
+            <a href="https://www.cowin.gov.in/" target="_blank">Cowin</a>
+          </p>
+          <p>
+            <a href="https://www.aarogyasetu.gov.in/" target="_blank">Arogya Setu</a>
+          </p>
+          <p>
+            <a href="help.php">Help</a>
+          </p>
+        </div>
+
+        <!-- Grid column -->
+        <hr class="w-100 clearfix d-md-none" />
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+          <p>
+            <i class="fas fa-home mr-3"></i> kolkata, haridevpur, k.p.mission
+          </p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> sarkarshilpi789@gmail.com
+          </p>
+          <p><i class="fas fa-phone mr-3"></i> +91 6295935886</p>
+          <p><i class="fas fa-print mr-3"></i> +91 8013715424</p>
+        </div>
+        <!-- Grid column -->
       </div>
-      <!-- Footer Links -->
-    </footer>
-    <!-- Footer -->
-  </body>
+      <!-- Footer links -->
+
+      <hr />
+
+      <!-- Grid row -->
+      <div class="row d-flex align-items-center">
+        <!-- Grid column -->
+        <div class="col-md-7 col-lg-8">
+          <!--Copyright-->
+          <p class="text-center text-md-left">
+            © 2021 Copyright:
+            <a href="#">
+              <strong> AllaboutKolkata.com</strong>
+            </a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-5 col-lg-4 ml-lg-0">
+          <!-- Social buttons -->
+          <div class="text-center text-md-right">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-google-plus-g"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+    <!-- Footer Links -->
+  </footer>
+  <!-- Footer -->
+
+
+
+
+  <script>
+    //Get the button
+    let mybutton = document.getElementById('btn-back-to-top')
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction()
+    }
+
+    function scrollFunction() {
+      if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+      ) {
+        mybutton.style.display = 'block'
+      } else {
+        mybutton.style.display = 'none'
+      }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    mybutton.addEventListener('click', backToTop)
+
+    function backToTop() {
+      document.body.scrollTop = 0
+      document.documentElement.scrollTop = 0
+    }
+  </script>
+</body>
+
 </html>
